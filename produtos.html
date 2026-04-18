@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fritisco - Nossos Produtos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="https://yata-apix-a46a9656-c5c5-4c33-bcc4-c66e95cad47c.s3-object.locaweb.com.br/f2d0835c62374506affea43cb8195d03.png" alt="Fritisco Logo">
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/produtos.html" class="active">PRODUTOS</a></li>
+                    <li><a href="/">LOCALIZAÇÃO</a></li>
+                    <li><a href="/">PARCEIROS</a></li>
+                    <li><a href="/" target="_blank">WEBMAIL</a></li>
+                </ul>
+            </nav>
+            <div class="header-contact">
+                <a href="tel:1938749801" class="btn-call">LIGUE: (19) 3874-9801</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-partners">
+            <div class="container">
+                <h1>Nossa Linha de Produtos</h1>
+                <p>Qualidade e sabor em cada pacote.</p>
+            </div>
+        </section>
+
+        <section class="container" style="padding: 60px 20px;">
+            <div class="category-block" style="margin-bottom: 40px;">
+                <h2 style="color: var(--primary); margin-bottom: 20px;">Batata Fatiada Lisa</h2>
+                <div class="partners-grid" style="padding: 20px 0;"> 
+                    <div class="partner-card" style="flex-direction: column; text-align: center;">
+                        <img src="https://yata-apix-a46a9656-c5c5-4c33-bcc4-c66e95cad47c.s3-object.locaweb.com.br/f1d0cffc78574d858b7bc972bfd14767.png" alt="Batata Lisa 80g" style="height: 180px; filter: none;">
+                        <h3 style="margin-top:15px">Batata Lisa - 80g</h3>
+                        <p style="color: var(--primary); font-weight: bold;">Tradicional</p>
+                    </div>
+                    <div class="partner-card" style="flex-direction: column; text-align: center;">
+                        <img src="https://yata-apix-a46a9656-c5c5-4c33-bcc4-c66e95cad47c.s3-object.locaweb.com.br/4eccf32992a040d68555d2d5adfc19bf.png" alt="Batata Lisa 45g" style="height: 180px; filter: none;">
+                        <h3 style="margin-top:15px">Batata Lisa - 45g</h3>
+                        <p style="color: var(--primary); font-weight: bold;">Lanche</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-block">
+                <h2 style="color: var(--primary); margin-bottom: 20px;">Salgadinhos de Milho</h2>
+                <div class="partners-grid" style="padding: 20px 0;">
+                    <div class="partner-card" style="flex-direction: column; text-align: center;">
+                        <img src="https://yata-apix-a46a9656-c5c5-4c33-bcc4-c66e95cad47c.s3-object.locaweb.com.br/bcc47913f7734bcda9013f265434bfc4.png" alt="Salgadinho de Queijo" style="height: 180px; filter: none;">
+                        <h3 style="margin-top:15px">Sabor Queijo</h3>
+                        <p style="color: var(--primary); font-weight: bold;">Favorito</p>
+                    </div>
+                    <div class="partner-card" style="flex-direction: column; text-align: center;">
+                        <img src="https://yata-apix-a46a9656-c5c5-4c33-bcc4-c66e95cad47c.s3-object.locaweb.com.br/db8ddccf5c934911a759488ed1f973fa.png" alt="Salgadinho de Presunto" style="height: 180px; filter: none;">
+                        <h3 style="margin-top:15px">Sabor Presunto</h3>
+                        <p style="color: var(--primary); font-weight: bold;">Clássico</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-revenda">
+            <div class="container">
+                <h2>Interessado em nossos produtos?</h2>
+                <p>Entre em contato agora mesmo.</p>
+                <a href="#contato" class="btn-main">Falar com Consultor</a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Fritisco</h3>
+                <p>Avenida Silvia Paula Santos Silva, 175<br>Paulínia - SP, 13146-050</p>
+                <p>(19) 3874-9801 | (19) 99771-4404</p>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Receba novidades e promoções!</p>
+                <form id="newsForm">
+                    <input type="text" placeholder="Seu Nome" required>
+                    <input type="email" placeholder="Seu E-mail" required>
+                    <button type="submit">CADASTRAR</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Fritisco. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
